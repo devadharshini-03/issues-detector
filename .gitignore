@@ -1,0 +1,20 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Local Python environments and caches
+.venv/
+.python-runtime/
+.uv-cache/
+.uv-tmp/
+__pycache__/
+*.py[cod]
+
+# Generated detector artifacts and downloaded weights
+alerts/
+reports/
+runs/
+weights/
+*.pt
+*.mp4

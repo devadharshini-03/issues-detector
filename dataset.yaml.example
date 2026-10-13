@@ -1,0 +1,12 @@
+# Copy to dataset.yaml and set path to your labeled dataset directory.
+# Keep footage from the same recording/session in only one split so the
+# validation score measures generalization to new scenes.
+path: datasets/smart_city
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: pothole
+  1: garbage
+  2: water_overflow
